@@ -38,7 +38,7 @@ export default function Page() {
     {
       title: "Unduh Resume / CV",
       subtitle: "Download",
-      href: "#",
+      href: "https://app.notion.com/p/Rofi-Nastain-Resume-39d1ba56c8fd802bbd5ddfe844753df2",
       icon: Download,
     },
     {
@@ -100,14 +100,17 @@ export default function Page() {
             const Icon = link.icon;
             const isPlaceholder = link.href === "#";
             const isEmail = link.title === "Email";
+            const isResume = link.title === "Unduh Resume / CV";
             const isActiveComingSoon = isPlaceholder && comingSoon[link.title];
             const displaySubtitle = isEmail
               ? copiedEmail
                 ? "✅ Email copied!"
                 : link.subtitle
-              : isActiveComingSoon
-                ? "⏳ Coming Soon..."
-                : link.subtitle;
+              : isResume
+                ? link.subtitle
+                : isActiveComingSoon
+                  ? "⏳ Coming Soon..."
+                  : link.subtitle;
             const sharedClasses =
               "group flex items-center gap-4 p-4 rounded-2xl bg-white/60 backdrop-blur-md border border-white/40 shadow-sm hover:-translate-y-1 hover:bg-white/70 transition-transform duration-200";
 
