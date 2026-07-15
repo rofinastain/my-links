@@ -32,7 +32,7 @@ export default function Page() {
     {
       title: "Journaling",
       subtitle: "Jurnal menulis",
-      href: "#",
+      href: "https://substack.com/@rofinastain",
       icon: BookOpen,
     },
     {
