@@ -14,13 +14,13 @@ export default function Page() {
     {
       title: "Portfolio: IT Business Analyst",
       subtitle: "Portfolio",
-      href: "#",
+      href: "https://app.notion.com/p/IT-Business-Analyst-39f1ba56c8fd807082bdd35fa8a361c8",
       icon: Briefcase,
     },
     {
       title: "Portfolio: Python",
-      subtitle: "Eksplorasi AI dan Python",
-      href: "#",
+      subtitle: "Python & AI Explorations",
+      href: "https://app.notion.com/p/Python-n-AI-Explorations-39f1ba56c8fd80158aa6f4c380c609fb",
       icon: Terminal,
     },
     {
@@ -31,7 +31,7 @@ export default function Page() {
     },
     {
       title: "Journaling",
-      subtitle: "Jurnal menulis",
+      subtitle: "Daily Journal",
       href: "https://substack.com/@rofinastain",
       icon: BookOpen,
     },
